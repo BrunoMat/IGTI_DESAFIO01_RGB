@@ -10,5 +10,5 @@ document.querySelector("#value1").value = r;
 document.querySelector("#value2").value = g;
 document.querySelector("#value3").value = b;
 
-document.querySelector(".rgb-color").style.backgroundColor = "rgb(" + r + "," + g + "," + b +")";
+document.querySelector(".rgb-color").style.backgroundColor = "rgb(" + r + "," + g + "," + b +")"; 
 }
