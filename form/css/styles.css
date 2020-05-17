@@ -1,0 +1,28 @@
+body{
+  font-family: sans-serif;
+}
+.rgb-color {
+  width: 75px;
+  height: 75px;
+  background-color: #000;
+  }
+
+.slide-container {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}  
+
+.slide-container label {
+  width:100px;
+  display: block;
+  margin-right: 15px;
+}
+
+.slide-container input{
+  margin-right: 15px;
+}
+
+.slide-container input[type="text"]{
+  width: 50;
+}

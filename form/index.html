@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Desafio 01 - IGTI</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <h1>Ajuste a sua cor</h1>
+    <div class="slide-container">
+      <label>
+        (R) Vermelho :
+      </label>
+      <input
+        id="range1"
+        type="range"
+        min="0"
+        max="255"
+        value="0"
+        oninput="readInput()"
+        
+      />
+      <input id="value1" type="text" disabled />
+    </div>
+    <div class="slide-container">
+      <label>
+        (G) Verde :
+      </label>
+      <input
+        id="range2"
+        type="range"
+        min="0"
+        max="255"
+        value="0"
+        oninput="readInput()"
+      />
+      <input  id="value2" type="text" disabled />
+    </div>
+    <div class="slide-container">
+      <label>
+        (B) Blue :
+      </label>
+      <input
+        id="range3"
+        type="range"
+        min="0"
+        max="255"
+        value="0"
+        oninput="readInput()"
+      />
+      <input id="value3" type="text" disabled />
+    </div>
+    <div class="rgb-color"></div>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
